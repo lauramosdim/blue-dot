@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi podcast</title>
+    <link rel="stylesheet" href="./normalize/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles/fontawesome-5/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/fontawesome-5/css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/fontawesome-5/css/brands.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|IBM+Plex+Sans:400,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">
+                    <img src=/images/logo.svg alt="Bluedot media logo" /></a>
+            </div>
+            <input class="toggle" type="checkbox" id="toggle" />
+            <label for="toggle" class="menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <div class="navLinks">
+                <ul class="dropdown">
+                    <li><a href="#episodios">Episodios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#entrevistas">Entrevistas</a></li>
+                    <li><a href="#topicos">Tópicos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Hello <span class="line_across">world</span> <br>pale blue dot<span class="dot">.</span>
+            </h1>
+            <p class="p1"> Un podcast que explora el mundo de
+                <br> la programación. Nuevos episodios,
+                <br> todos los jueves cada 15 días.</p>
+            <form action="nosotros">
+                <button type="submit" formaction="#nosotros" class="button1">conocé más</button>
+            </form>
+        </section>
+        <section class="podcast" id="episodios">
+            <div class="ep_container">
+                <h2>Episodios</h2>
+                <div class="episodes">
+                    <div class="iframe">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="nosotros" id="nosotros">
+            <div class="woman">
+                <img class="phone" src="/images/phone_good.png" alt="Cellphone screenshot with a women picture">
+            </div>
+            <h2>De dónde venimos</h2>
+            <p class="p2">Our posturings, our imagined self-importance,the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
+                <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+            </p>
+        </section>
+        <section class="invitados" id="entrevistas">
+            <h2>Invitadas/os estelares</h2>
+            <div class="images">
+                <img src="/images/grace-hopper.png" alt="Grace Hopper">
+                <img src="/images/Katie-Bouman.png" alt="Katie Bouman">
+                <img src="/images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+                <img src="/images/E.R.A.Univac.png" alt="1950's Computer and two ladies">
+                <img src="/images/Eniac.png" alt="Eniac and two ladies">
+                <img src="/images/susan-kare.png" alt="Susan Kare">
+            </div>
+        </section>
+        <section class="topicos" id="topicos">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="topics">
+                <div class="img_topicos">
+                    <img src="./images/icon1.svg" alt="Trabajo remoto" />
+                    <span class="span1">Trabajo remoto</span>
+                </div>
+                <div class="img_topicos">
+                    <img src="./images/icon2.svg" alt="Repensando la programacion" />
+
+                    <span class="span2">Repensando la programación</span>
+                </div>
+                <div class="img_topicos">
+                    <img src="./images/icon3.svg" alt="Bases del codigo" />
+
+                    <span class="span3">Bases del código</span>
+                </div>
+                <div class="img_topicos">
+                    <img src="./images/icon4.svg" alt="Seguridad informatica" />
+                    <span class="span4">Seguridad informática</span>
+                </div>
+            </div>
+        </section>
+        <section class="final">
+            <div class="end">
+                <h2>¿Querés las últimas novedades?</h2>
+                <form action="episodios">
+                    <button type="submit" formaction="#episodios" class="button2">escuchá los episodios</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="p3">© 2019— Hello blue pale dot</p>
+        <div class="social">
+            <a target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify"></i></a>
+            <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://web.telegram.org"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+</body>

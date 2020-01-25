@@ -195,6 +195,7 @@ form .button1,.button2 {
 	clip-path: polygon( 0 3%, 100% 0, 100% 97%, 0 100%);
 	padding-top: 64px;
 	height: 1203.5px;
+
 }
 
 .podcast h2 {
@@ -208,16 +209,31 @@ form .button1,.button2 {
 	margin-bottom: 10px;
 }
 
-.iframe {
-	padding-top: 11px;
-	margin-left: 11px;
-	margin-right: 11px;
-	margin-bottom: -10px;
+.episodes{
+	position: relative;
+}
+.iframe:last-child {
+	margin-bottom: 143.5px;
 }
 
 
-.iframe:last-child {
-	margin-bottom: 143.5px;
+.iframe {  
+	width: 100%;  
+	height:232px;  
+	border: 0px;                    
+	background-color: transparent; 
+	margin-top: 10px;
+	margin-bottom: 11px;
+	
+	
+}  
+
+iframe {
+	margin-top: 11px;
+	height: 100%;
+	width: 320px;  
+
+
 }
 
 .woman {
@@ -537,6 +553,10 @@ color: #0000EC;
 .woman img{
 	height: 660px;
 	width: 457.6px;
+}
+
+iframe{
+	width: 584px;
 }
 
 h2 {
